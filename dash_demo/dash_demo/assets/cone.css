@@ -1,0 +1,1104 @@
+/* default css regardless of application type */
+
+/*import google font Montserrat*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/* general header & body font */
+h1.title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+    color: #00205C;
+  }
+h1 { /* Header 1 */
+    font-size: 24px;
+    font-weight: bold;
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color: #00205C;
+}
+h2 { /* Header 2 */
+    font-size: 18px;
+    font-weight: bold;
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color: #00205C;
+}
+h3 { /* Header 3 */
+    font-size: 18px;
+    font-weight: bold;
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color: #00205C;
+}
+h4.author { /* Header 3 */
+    font-size: 18px;
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color: #555555;
+}
+h4.date { /* Header 3 */
+    font-size: 18px;
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color: #555555;
+    font-style: italic;
+}
+body {
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  font-size: 16px;
+  background-color: rgba(247, 247, 247, 0.7);
+  padding-top: 0;
+}
+a {
+  color: #00A2B2;
+}
+a:hover, a:focus {
+  color: #00205C;
+}
+
+/* cone colors*/
+
+.conedark {
+  color: #00205c;
+}
+
+.conelight {
+  color: #00A2B2 ;
+}
+
+.conegold {
+  color: #f1bd51;
+}
+
+.conegray {
+  color: #c9c9c9;
+}
+
+.conepurple {
+  color: #7750a9;
+}
+
+.conegreen {
+  color: #b7d866;
+}
+
+.conelightblue {
+  color: #63ccff;
+}
+
+.conedarkfill {
+  background: #00205c;
+}
+
+.conelightfill {
+  background: #00A2B2 ;
+}
+
+.conegoldfill {
+  background: #f1bd51;
+}
+
+.conegrayfill {
+  background: #c9c9c9;
+}
+
+.conepurplefill {
+  background: #7750a9;
+}
+
+.conegreenfill {
+  background: #b7d866;
+}
+
+.conelightbluefill {
+  background: #63ccff;
+}
+/* buttons */
+
+.btn {
+  border-width: 0 0px 0px 0px;
+  font-weight: normal;
+  color: #ffffff;
+    background-color: #00A2B2;
+    border-color: #00A2B2;
+}
+.btn-default {
+  color: #00A2B2;
+    background-color: rgba(247, 247, 247, 0.7);
+    background-color: rgba(247, 247, 247, 0.7);
+}
+
+/* horizonal rule */
+
+hr {
+  border-top:1px solid #f1bd51 !important;
+  width:80%;
+  border-bottom:0 !important;
+}
+
+/** Changes the tabset to Cone themed colours
+*/
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+  color: #ffffff;
+    background-color: #00A2B2;
+}
+
+.nav-pills > li.active > a:hover {
+  color: #00205C;
+    background-color: #00A2B2;
+    text-decoration: none;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #00205C;
+    border-color: #00205C;
+}
+
+/** Summary Block Chunk which outlines in Cone Blue
+*/
+
+.summaryblock{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 10px;
+  color: #333E50;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #00A2B2;
+}
+
+.summaryblock > a {
+  color: #d8dfee;
+}
+
+/** Alter Box in Clemson Orange
+*/
+
+.alertblock{
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 10px;
+  color: #333E50;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #F66733;
+}
+
+.alertblock > a {
+  color: #d8dfee;
+}
+
+/**Automatically resize to full screen
+*/
+
+.main-container {
+  max-width: 95% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.list-group-item{
+  background-color: rgba(247, 247, 247, 0.7);
+}
+
+/** Weird Code Folding Issues
+*/
+
+div.sourceCode {
+  overflow-x: hidden;
+}
+
+
+.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+.tip {
+    padding: 0.5em;
+    background-color: #dbfaf4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* leaflet */
+.leaflet, .leaflet .info{
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+}
+
+.legend{
+clear:initial !important;
+}
+
+/* tables */
+
+th, tr>th{background-color: #00A2B2;
+color:white}
+
+tr{color:#00205C}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.table{
+      width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:95%;
+}
+
+.table>tbody>tr>td{
+  padding:3px 20px 3px 20px;
+}
+
+.table>thead>tr>th{
+  padding:5px 20px 5px 20px;
+}
+
+/** warning and information block divs */
+.warning {
+    display: inline-flex;
+    margin: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    /* font-size: 1rem; */
+    line-height: 1.25;
+    color: #0b0c0c;
+}
+
+.warning:before {
+    display: inline-block;
+    margin: 10px;
+    content: "!";
+    color: white;
+    background: #d4351c;
+    font-weight: 700;
+    left: 50px;
+    min-width: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    min-height: 35px;
+    margin-top: -7px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+.information {
+    display: inline-flex;
+    margin: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    /* font-size: 1rem; */
+    line-height: 1.25;
+    color: #0b0c0c;
+}
+
+.information:before {
+    display: inline-block;
+    font-family: "serif";
+    margin: 10px;
+    content: "i";
+    color: white;
+    background: #00A2B2;
+    font-weight: 700;
+    left: 50px;
+    min-width: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    min-height: 35px;
+    margin-top: -7px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+/* boxes? */
+
+
+.mybox {
+    float: left;
+    border: 1px solid #00205c !important;
+    margin: 3pt;
+    padding: 5px;
+    width: 45%;
+    border-top: 1px solid #00205c !important;
+}
+
+.mybox p {
+  color: #FFFFFF !important;
+    text-align: center;
+    font-size: 14px;
+}
+.mybox b {
+  color: #FFFFFF !important;
+}
+
+.mybox strong{
+  color: #FFFFFF !important;
+}
+
+
+/* kpis */
+.kpicontainer {
+  margin:0 auto;
+  display:inline-block;
+
+}
+
+.tile {
+  width:160px;
+  height:180px;
+  border-radius:4px;
+  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.15);
+  margin-top:10px;
+  margin-left:5px;
+  margin-bottom:10px;
+  float:left;
+}
+
+
+.tile .header {
+  height:120px;
+  background-color:#f4f4f4;
+  border-radius: 4px 4px 0 0;
+  color:white;
+  font-weight:300;
+}
+
+
+.tile .header .count {
+  font-size: 36px;
+  text-align:center;
+  padding:10px 0 0;
+}
+
+.tile .header .title {
+  font-size: 20px;
+  padding-top: 10px;
+  text-align:center;
+}
+
+.tile .body {
+  height:60px;
+  border-radius: 0 0 4px 4px;
+  color:#333333;
+  background-color:white;
+}
+
+.tile .body .title {
+    text-align:center;
+    font-size:20px;
+    padding-top:2%;
+}
+
+/* tiny tiles */
+
+.tile.tiny {
+  width:80px;
+  height:90px;
+  border-radius:4px;
+  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.15);
+  margin-top:10px;
+  margin-left:5px;
+  margin-bottom:10px;
+  float:left;
+}
+
+.tile.tiny .header {
+  height:60px;
+  background-color:#f4f4f4;
+  border-radius: 4px 4px 0 0;
+  color:white;
+  font-weight:300;
+}
+
+
+.tile.tiny .header .count {
+  font-size: 18px;
+  text-align:center;
+  padding:5px 0 0;
+}
+
+.tile.tiny .header .title {
+  font-size: 10px;
+  padding-top: 5px;
+  text-align:center;
+}
+
+.tile.tiny .body {
+  height:30px;
+  border-radius: 0 0 4px 4px;
+  background-color:white;
+  font-weight:bold;
+}
+
+.tile.tiny .body .title {
+    text-align:center;
+    font-size:11px;
+    padding-top:2%;
+}
+
+/* small tiles */
+
+.tile.small {
+  width:120px;
+  height:120px;
+  border-radius:4px;
+  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.15);
+  margin-top:10px;
+  margin-left:5px;
+  margin-bottom:10px;
+  float:left;
+}
+
+
+.tile.small .header {
+  height:90px;
+  background-color:#f4f4f4;
+  border-radius: 4px 4px 0 0;
+  color:white;
+  font-weight:300;
+}
+
+
+.tile.small .header .count {
+  font-size: 28px;
+  text-align:center;
+  padding:5px 0 0;
+}
+
+.tile.small .header .title {
+  font-size: 15px;
+  padding-top: 5px;
+  text-align:center;
+}
+
+.tile.small .body {
+  height:45px;
+  border-radius: 0 0 4px 4px;
+  background-color:white;
+}
+
+.tile.small .body .title {
+    text-align:center;
+    font-size:16px;
+    padding-top:2%;
+}
+
+
+.tile.conelight .header {
+  background: linear-gradient(to bottom right, #00a2b2, #00818e);
+}
+
+.tile.conelight .body {
+  color: #00a2b2;
+}
+
+.tile.conedark .header {
+  background: linear-gradient(to bottom right, #19366C, #001949);
+}
+
+.tile.conedark .body {
+  color: #00205c;
+}
+
+.tile.red .header {
+  background: linear-gradient(to bottom right, #db2b27, #ad0e0a);
+}
+
+.tile.red  .body {
+  color: #db2b27;
+}
+
+.tile.orange .header {
+  background: linear-gradient(to bottom right, #ef7f00, #bf6500);
+}
+
+.tile.orange  .body {
+  color: #ef7f00;
+}
+
+.tile.yellow .header {
+  background: linear-gradient(to bottom right, #f1bd51, #c49127);
+}
+
+.tile.yellow  .body {
+  color: #f1bd51;
+}
+
+.tile.lime .header {
+  background: linear-gradient(to bottom right, #b7d866, #7a9e21);
+}
+
+.tile.lime  .body {
+  color: #b7d866;
+}
+
+.tile.green .header {
+  background: linear-gradient(to bottom right, #0aa361, #08824D);
+}
+
+.tile.green  .body {
+  color: #0aa361;
+}
+
+.tile.skyblue .header {
+  background: linear-gradient(to bottom right, #63CCFF, #4FA3CC);
+}
+
+.tile.skyblue  .body {
+  color: #63CCFF;
+}
+
+.tile.blue .header {
+  background: linear-gradient(to bottom right, #1f6abb, #185495);
+}
+
+.tile.blue  .body {
+  color: #1f6abb;
+}
+
+.tile.purple .header {
+  background: linear-gradient(to bottom right, #7750a9, #512e7d);
+}
+
+.tile.purple  .body {
+  color: #7750a9;
+}
+
+.tile.magenta .header {
+  background: linear-gradient(to bottom right, #CC00CC, #990099);
+}
+
+.tile.magenta  .body {
+  color: #CC00CC;
+}
+
+.tile.gray .header {
+  background: linear-gradient(to bottom right, #8C8C8C, #646464);
+}
+
+.tile.gray  .body {
+  color: #8C8C8C;
+}
+
+/* flex dashboard color matches for tiles */
+
+.tile.danger .header {
+  background: linear-gradient(to bottom right, rgba(255, 0, 57, 0.65), rgba(255, 0, 57, 0.8));
+}
+
+.tile.danger .body {
+  color: rgba(255, 0, 57, 0.8);
+}
+
+
+.tile.warning .header {
+  background: linear-gradient(to bottom right, rgba(255, 117, 24, 0.7), rgba(255, 117, 24, 0.85));
+}
+
+.tile.warning .body {
+  color: rgba(255, 117, 24, 0.85);
+}
+
+.tile.success .header {
+  background: linear-gradient(to bottom right, rgba(63, 182, 24, 0.7), rgba(63, 182, 24, 0.85));
+}
+
+.tile.success .body {
+  color: rgba(63, 182, 24, 0.85);
+}
+
+.tile.primary .header {
+  background: linear-gradient(to bottom right, rgba(39, 128, 227, 0.7), rgba(39, 128, 227, 0.85));
+}
+
+.tile.primary .body {
+  color: rgba(39, 128, 227, 0.85);
+}
+
+.tile.info .header {
+  background: linear-gradient(to bottom right, rgba(153, 84, 187, 0.7), rgba(153, 84, 187, 0.85));
+}
+
+.tile.info .body {
+  color: rgba(153, 84, 187, 0.85);
+}
+
+/* tabs - class for makeshift tabsets */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  grid-column: page;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color: #00A2B2;
+  font-weight: bold;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #00205C;
+  color:#ffffff;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #00A2B2;
+  color:#ffffff;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  border-left: 1px #CCCCCC solid;
+  border-right: 1px #CCCCCC solid;
+  border-bottom: 1px #CCCCCC solid;
+}
+
+/* flex column content - breaks on p, div, span */
+
+.columns {
+  display: flex;
+  flex-basis: auto;
+  grid-column: page;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.twocol {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.threecol {
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.column-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/************** highcharter ************************************/
+
+/*background transparent*/
+rect.highcharts-background {
+    fill: transparent;
+}
+
+/*download/full-screen dropdown format*/
+li.highcharts-menu-item {
+    font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+    margin: 0;
+}
+
+/*download/full-screen dropdown hover*/
+li.highcharts-menu-item:hover {
+    background-color: #00205C !important;
+}
+
+/*download/full-screen dropdown hr*/
+ul.highcharts-menu hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/************** crosstalk or shiny (js) inputs ***************************/
+
+.irs-bar, .irs-single, .irs-bar-edge, .irs-grid-pol {
+    border-top: 1px solid #00A2B2 !important;
+    border-bottom: 1px solid #00A2B2 !important;
+    background: #00A2B2 !important;
+}
+
+.irs-to, .irs-from {
+  background:#00A2B2;
+}
+
+.selectize-input.focus {
+    border-color: #00A2B2;
+}
+
+
+
+/* center anything by adding andcenter to div */
+.andcenter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.watermark {
+  opacity: 0.5;
+  position: sticky;
+  top: 85%;
+  text-align: center;
+  font-size: 14px;
+  color:  #CC0000;
+}
+
+/* for footers */
+
+.fixed-footer {
+  background-color:#00A2B2;
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+  color:white;
+  position:fixed;
+  bottom:0;
+  left:0;
+  max-width:100%;
+  padding:15px;
+  z-index:9999;
+  font-size:small;
+
+}
+
+.footer{
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif;
+}
+
+
+.panel-primary>.panel-heading {
+    background-color: #f1bd51;
+    color: black;
+}
+
+.panel-title{
+  font-weight: bold;
+}
+
+.panel-body {
+    background-color: #00a2b2;
+    color: white;
+}
+
+.panel-primary>.panel-heading, .panel-body, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: none;
+}
+
+.bottom0.panel-group  {
+margin-bottom: 0;
+}
+
+.notifications-scroll-area {
+  max-height: 200px;
+	position: relative;
+	overflow: auto;
+}
+
+
+
+/* Nav Bar Stuff */
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 35px;
+    align-self: flex-end;
+}
+
+.navbar, .distill-site-nav {
+	background-color: #00A2B2 !important;
+	background-image: none;
+	text-decoration: none;
+	text-shadow: none;
+	position:relative;
+	    background: #00A2B2 url(https://www.conehealth.com/imgs/icons/logo-icon-white.svg) no-repeat left;
+    background-size: 41px 30px;
+    background-origin: content-box, padding-box;
+    padding: 0 20px 0 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a, .distill-site-nav a {
+
+    color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.navbar-inverse .navbar-link:hover, .navbar-inverse .navbar-link:focus {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav{
+  margin-left:35px;
+}
+
+.navbar-inverse .navbar-right{
+  margin-left:0px;
+}
+
+.navbar-inverse .navbar-brand, .distill-site-header .title, .navbar-dark .navbar-brand {
+    color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-link {
+	color: white;
+	background-color: #00A2B2;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .distill-site-nav a:hover, .distill-site-nav a:focus {
+    color: white;
+    background-color: #012169;
+    text-decoration: none;
+}
+
+/* flex dashboard navbar */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #00205C;
+}
+
+
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    font-weight: bold;
+    color: #012169;
+    background-color: white;
+}
+
+.dropdown-menu>li>a {
+    color: #00A2B2;
+    background-color: white;
+}
+
+.navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: transparent;
+    color: #00A2B2;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: transparent;
+    color: #00A2B2;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #012169;
+
+
+    color: white;
+}
+
+.navbar-inverse, .distill-site-nav {
+    background: #00A2B2 url(https://www.conehealth.com/imgs/icons/logo-icon-white.svg) no-repeat left;
+    background-size: 41px 30px;
+    background-origin: content-box, padding-box;
+    padding: 0 20px 0 20px;
+}
+
+.main-container {
+padding-top:inherit;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: white;
+    text-decoration: none;
+    background-color: #012169;
+}
+
+
+.navbar-brand {
+    padding: 17px 10px 10px;
+    line-height: 20px;
+    height: 55px;
+    margin-left: -50px;
+}
+
+
+.nav>li>a {
+    padding-top: 17px;
+    padding-bottom: 13px;
+    line-height: 23px;
+    height: 55px;
+}
+
+
+.nav-dropdown-content a {
+    color: #012169;
+}
+.nav-dropdown .nav-dropbtn{
+  margin-top: 0;
+  line-height: 12px;
+}
+
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+	background-color: #00A2B2
+}
+
+/* distill */
+
+.publishedDate {
+  font-size:14px ;
+}
+
+.posts-list .post-preview h2{
+  font-size:18px  !important;
+}
+
+.posts-sidebar {
+  font-size:14px  !important;
+}
+
+.distill-site-header .logo img {
+  display: inline-block;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 30px;
+  max-height: 41px;
+  height: 25.2px;
+  margin-top: -2px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.distill-site-header a.logo:hover {
+  background-color: #00A2B2;
+}
+
+.posts-list .description h2, .posts-list .description p {
+  font-family: "Gotham SSm A","Gotham SSm B",'Montserrat',Arial,sans-serif !important;
+}
+
+.posts-list .post-preview{
+  border-top:1px solid #f1bd51 !important;
+  border-bottom:0 !important;
+}
+
+.posts-list .posts-list-caption{
+  font-weight: revert !important;
+}
+
+.distill-site-nav {
+    display: table;
+}
+
+.headroom{
+ position: sticky;
+}
+
+d-title {
+    padding-top: 15px;
+}
+
+d-article {
+  font-size: 16px;
+}
+
+d-article iframe {
+  border: none;
+}
+
+d-article h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.25em;
+    margin: 2rem 0 1.5rem 0;
+    border-bottom: 1px solid rgba(255,165,0, 0.7);
+    padding-bottom: 1rem;
+}
+
+
+.active {
+  display:block;
+}
+
+
+/* jump to top button */
+#jumpToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 30px;
+  font-family: Times New Roman;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: #00A2B2;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  padding-bottom: 0;
+  padding-top: 5px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+}
+
+#jumpToTop:hover {
+  background-color: #00205C;
+  transition: all 0.3s ease-in-out;
+  padding-top:3px;
+  padding-bottom:2px;
+}
+/* add to body <button onclick="topFunction()" id="jumpToTop" title="Go to top">^</button> */
+
+/*
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+*/
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+
+.navbar-nav{
+    align-items: flex-end;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+}
+
+.nav>li>a, .navbar-brand {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 12px;
+    height: 35px;
+}
