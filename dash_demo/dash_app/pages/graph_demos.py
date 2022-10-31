@@ -113,7 +113,7 @@ body = html.Div(children = [
 
 	])
 
-from dash_app.pages.navbar import navigation
+from pages.navbar import navigation
 
 def graph_demos_layout():
 	layout = html.Div(
