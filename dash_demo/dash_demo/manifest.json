@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "locale": "en_US.cp1252",
+  "metadata": {
+    "appmode": "python-dash",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.10.7",
+    "package_manager": {
+      "name": "pip",
+      "version": "22.3",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "79b3d44492187601d47a1af2bbbea6ab"
+    },
+    "__init__.py": {
+      "checksum": "dd78d4450cfb59b0d83ad5e71e4ffc68"
+    },
+    "assets\\cone.css": {
+      "checksum": "2e2030d8e12ce7d9a0a4b93e9dee61e8"
+    },
+    "assets\\favicon.ico": {
+      "checksum": "669615a0df048811649286fd672dd8bc"
+    },
+    "assets\\forecasting_dx_app.png": {
+      "checksum": "525a4030a200ef19db4a51853cf672db"
+    },
+    "assets\\nc_geo.json": {
+      "checksum": "f2fccd85e63006489ff2b66039467a9d"
+    },
+    "pages\\graph_demos.py": {
+      "checksum": "9ca5e9da508973c17ed4a42bf0cffef4"
+    },
+    "pages\\navbar.py": {
+      "checksum": "68035b5ce6f1ea0be7292034e466314a"
+    },
+    "static\\content\\bootstrap.css": {
+      "checksum": "e8a901c72a91134fa7b7a5f42dc27b6a"
+    },
+    "static\\content\\bootstrap.min.css": {
+      "checksum": "91720dab4998d2b67ee2b9488e939b39"
+    },
+    "static\\content\\cone.css": {
+      "checksum": "2e2030d8e12ce7d9a0a4b93e9dee61e8"
+    },
+    "static\\content\\favicon.ico": {
+      "checksum": "669615a0df048811649286fd672dd8bc"
+    },
+    "static\\content\\site.css": {
+      "checksum": "3b7aecf4eb582de1d8f2afdb1f7c0d76"
+    },
+    "static\\fonts\\glyphicons-halflings-regular.eot": {
+      "checksum": "2469ccfe446daa49d5c1446732d1436d"
+    },
+    "static\\fonts\\glyphicons-halflings-regular.svg": {
+      "checksum": "54b1190daa87d9647473f68ecd585e28"
+    },
+    "static\\fonts\\glyphicons-halflings-regular.ttf": {
+      "checksum": "aa9c7490c2fd52cb96c729753cc4f2d5"
+    },
+    "static\\fonts\\glyphicons-halflings-regular.woff": {
+      "checksum": "7c4cbe928205c888831ba76548563ca3"
+    },
+    "static\\scripts\\_references.js": {
+      "checksum": "45a365718ebf5c1d9dfc0ed442bf2025"
+    },
+    "static\\scripts\\bootstrap.js": {
+      "checksum": "8959736f0c22478f970bcc6c54ddfa75"
+    },
+    "static\\scripts\\bootstrap.min.js": {
+      "checksum": "59e9cf1fcfcef4730d1c227da4d2e089"
+    },
+    "static\\scripts\\jquery-1.10.2.intellisense.js": {
+      "checksum": "8bb84755759d660cfb7afa53c806591a"
+    },
+    "static\\scripts\\jquery-1.10.2.js": {
+      "checksum": "d3af38bdc2f24f7bfffc479459e1ce98"
+    },
+    "static\\scripts\\jquery-1.10.2.min.js": {
+      "checksum": "248b71dda521aa38d72f872b588aea69"
+    },
+    "static\\scripts\\jquery-1.10.2.min.map": {
+      "checksum": "6c3ccfc221d36777d383b6e04d0b8af9"
+    },
+    "static\\scripts\\jquery.validate-vsdoc.js": {
+      "checksum": "cccea6eeb74f43e5d7f3d2143027f2fe"
+    },
+    "static\\scripts\\jquery.validate.js": {
+      "checksum": "10d9cb073550757ea1a6bbefb135d2b5"
+    },
+    "static\\scripts\\jquery.validate.min.js": {
+      "checksum": "ff0f9e5a0e81ecbc3ae81c1f23fa38bd"
+    },
+    "static\\scripts\\jquery.validate.unobtrusive.js": {
+      "checksum": "9ba9916b9cd5b30bd224f53685057adf"
+    },
+    "static\\scripts\\jquery.validate.unobtrusive.min.js": {
+      "checksum": "dd9e6ecb410314024555b6a8f7846860"
+    },
+    "static\\scripts\\modernizr-2.6.2.js": {
+      "checksum": "b436ea972911317706826efb872f4716"
+    },
+    "static\\scripts\\respond.js": {
+      "checksum": "3c4d3ccd385faf583873a72ce84d63c8"
+    },
+    "static\\scripts\\respond.min.js": {
+      "checksum": "4d871dd56425f55a817525762490f866"
+    },
+    "templates\\about.html": {
+      "checksum": "ca8b29cad9f5d527d07f481458e56957"
+    },
+    "templates\\contact.html": {
+      "checksum": "32a2fe376830b31189ab3d497971ecda"
+    },
+    "templates\\graph_demos.html": {
+      "checksum": "e3ee5c39c21ce6fc24eb8b661c8cb324"
+    },
+    "templates\\index.html": {
+      "checksum": "5e71bef8b268e12bdfedb0b6b2a49f4a"
+    },
+    "templates\\layout.html": {
+      "checksum": "67faceb5b9a67f2c0b684200aa1b3b82"
+    },
+    "views.py": {
+      "checksum": "984239775f625464c6dacf4555a1075c"
+    }
+  }
+}
