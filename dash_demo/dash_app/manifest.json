@@ -2,8 +2,8 @@
   "version": 1,
   "locale": "en_US.cp1252",
   "metadata": {
-    "appmode": "python-dash",
-    "entrypoint": "create_app:app"
+    "appmode": "python-api",
+    "entrypoint": "app"
   },
   "python": {
     "version": "3.8.10",
@@ -18,7 +18,22 @@
       "checksum": "79b3d44492187601d47a1af2bbbea6ab"
     },
     "__init__.py": {
-      "checksum": "dd78d4450cfb59b0d83ad5e71e4ffc68"
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "__pycache__\\__init__.cpython-310.pyc": {
+      "checksum": "7ffb8b32345d0c5ae779cc6f9adfd05c"
+    },
+    "__pycache__\\app.cpython-310.pyc": {
+      "checksum": "ebc4abf3882b52d3c2b87a2433892292"
+    },
+    "__pycache__\\create_app.cpython-310.pyc": {
+      "checksum": "ace9e00bf9288b3444543faaf6477bfb"
+    },
+    "__pycache__\\dash_app.cpython-310.pyc": {
+      "checksum": "d41b5f197eed23168591989ff8b40a70"
+    },
+    "__pycache__\\views.cpython-310.pyc": {
+      "checksum": "2ea8e713843827076109112af1d50eb1"
     },
     "assets\\cone.css": {
       "checksum": "2e2030d8e12ce7d9a0a4b93e9dee61e8"
@@ -32,8 +47,17 @@
     "assets\\nc_geo.json": {
       "checksum": "f2fccd85e63006489ff2b66039467a9d"
     },
+    "create_app.py": {
+      "checksum": "5549382ce2676dbcb348c2241660ff29"
+    },
+    "pages\\__pycache__\\graph_demos.cpython-310.pyc": {
+      "checksum": "29c1fc63541f376a243b1205e79672a9"
+    },
+    "pages\\__pycache__\\navbar.cpython-310.pyc": {
+      "checksum": "1a328de839c9966df4aea4d50b57bf61"
+    },
     "pages\\graph_demos.py": {
-      "checksum": "9ca5e9da508973c17ed4a42bf0cffef4"
+      "checksum": "5d863cab3fd78999e8bbd5f9128ba1cb"
     },
     "pages\\navbar.py": {
       "checksum": "68035b5ce6f1ea0be7292034e466314a"
@@ -126,7 +150,7 @@
       "checksum": "67faceb5b9a67f2c0b684200aa1b3b82"
     },
     "views.py": {
-      "checksum": "984239775f625464c6dacf4555a1075c"
+      "checksum": "88c33b50eb7af579ea312eea18fd80b1"
     }
   }
 }
