@@ -3,7 +3,7 @@ This script runs the dash_demo application using a development server.
 """
 
 from os import environ
-from dash_demo import app
+from app import app
 
 if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', 'localhost')

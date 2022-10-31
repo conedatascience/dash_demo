@@ -2,7 +2,7 @@
 Routes and views for the flask application.
 """
 
-from dash_demo import app
+from app import app
 from datetime import datetime
 from flask import render_template
 from dash import Dash, Input, Output
@@ -69,7 +69,7 @@ graph_demos_page = Dash(
     external_stylesheets = [dbc.themes.BOOTSTRAP],
     url_base_pathname = "/graph_demos/"
     )
-from dash_demo.pages.graph_demos import graph_demos_layout
+from app.pages.graph_demos import graph_demos_layout
 graph_demos_page.layout = graph_demos_layout  # apply layout
 
 # add interactivity functions here
